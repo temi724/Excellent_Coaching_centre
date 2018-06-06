@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!--
+Copyright 2018 Daniel Temtayo.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon"   href="images/favicon.ico"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+        <title>courses</title>
+
+        <!-- Loading third party fonts -->
+        <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|" rel="stylesheet" type="text/css">
+        <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Loading main css file -->
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!--[if lt IE 9]>
+        <script src="js/ie-support/html5.js"></script>
+        <script src="js/ie-support/respond.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body>
+        <div id="site-content">
+            <div class="site-header">
+                <div class="container">
+                    <a href="index.html" id="branding">
+                        <img src="images/logo.png" alt="" class="logo">
+                        <div class="logo-text">
+                            <h1 class="site-title">Excelent coaching</h1>
+                            <small class="site-description">We make the best students</small>
+                        </div>
+                    </a> <!-- #branding -->
+
+                    <!-- Default snippet for navigation -->
+                    <div class="main-navigation">
+                        <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+
+                            <li class="menu-item current-menu-item"><a href="courses.html"> courses</a></li>
+                            <li class="menu-item"><a href="contactus.html">Contact</a></li>
+                        </ul> <!-- .menu -->
+                    </div> <!-- .main-navigation -->
+
+                    <div class="mobile-navigation"></div>
+                </div>
+            </div> <!-- .site-header -->
+
+            <main class="main-content">
+
+                <div class="page">
+                    <div class="container">
+                        <h2 class="entry-title">Available courses</h2>
+                        <p>Pick from our wide range of options(Please note that we only have ASP.Net and JAVA available for now)</p>
+
+                        <div class=" filterable-nav">
+                            <select class="mobile-filter">
+                                <option value="*">Show all</option>
+                                <option value=".skyscraper">standards</option>
+                                <option value=".shopping-center">professionalr</option>
+                                <option value=".apartment">single</option>
+                            </select>
+
+                            <a href="#" class="current wow fadeInRight" data-filter="*">Show all</a>
+                            <a href="#" class="wow fadeInRight" data-wow-delay=".2s" data-filter=".skyscraper">standard</a>
+                            <a href="#" class="wow fadeInRight" data-wow-delay=".4s" data-filter=".shopping-center">professional</a>
+                            <a href="#" class="wow fadeInRight" data-wow-delay=".6s" data-filter=".apartment">single</a>
+                        </div>
+
+                        <div class="filterable-items">
+                            <div class="project-item filterable-item shopping-center">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/1.png" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="#" id="">microsoft Technogies</a></h2>
+                                        <p class="project-subtotle">Professional</p>
+                                        <p>You'll get to master the act of Micrsoft and it's technologies. Here you'll start form the basics of C# to razor technologies
+                                        </p>
+                                    </figcaption>
+                                    <span id="myBtn"><img src="images/arrow.png" alt=""/></span>
+                                    <!--                                     <button  id="myBtn" >more</button>-->
+                                </figure>
+                            </div>
+
+                            <div class="project-item filterable-item shopping-center">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2a.jpg" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="">JAVA</a></h2>
+                                        <p class="project-subtotle">Professional</p>
+                                        <p>
+                                            Get on top of your I.T career by mastering the ever relevant java. Java SE,FX,EE,cards,Spring frameworks and lots more
+                                        </p>
+                                    </figcaption>
+                                    <span id="pop-up-2"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item filterable-item skyscraper">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2b.jpg" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="">oracle</a></h2> 
+                                        <p class="project-subtotle">standard</p>
+                                        <p>Become an oracle by mastering the basics and advance concepts, more than enough practical applications </p>
+                                    </figcaption>
+                                        <span id="pop-up-2"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+
+                            <div class="project-item filterable-item apartment">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2c.jpg" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="#">PHP</a></h2>
+                                        <p class="project-subtotle">single</p>
+                                        <p>PHP is one of the most used free server side technologies in the industry.you will learn to write and integrate both
+                                            procedural and object oriented principle(OOP) of PHP, coupled with powerful javascript frameworks like angular and react with mysql database
+                                        </p>
+                                    </figcaption>
+                                        <span id="php"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item filterable-item apartment">
+                                <figure class="featured-image">
+                                    <a href="bookthis.php"><img src="styles/2d.jpg" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href=#">Android</a></h2>
+                                        <p class="project-subtotle">single</p>
+                                        <p>Are you a Java developer already, do you understand all basics and and advance concepts of java.
+                                            Step up your Java Skills by learning to write android applications</p>
+                                    </figcaption>
+                                        <span id="andriod"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item  filterable-item skyscraper">
+                                <figure class="featured-image">
+                                    <a href="bookthis.php"><img src="styles/2e.jpg" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="#">IONIC</a></h2>
+                                        <p class="project-subtotle">standard</p>
+                                        <p>Do you understand HTML5, CSS3 and Angular,cordova ,e.t.c
+                                            Then you can learn to write android on this platforms</p>
+                                    </figcaption>
+                                        <span id="ionic"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item  filterable-item shopping-center">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2f.png" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="">XAMARINE</a></h2>
+                                        <p class="project-subtotle">Professional</p>
+                                        <p>Learn to develop multi-platform applications with MICROSOFT  adopted XAMARINE</p>
+                          </figcaption>
+                                        <span id="xamal"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item filterable-item skyscrapper">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2g.png" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="#">PYTHON</a></h2>
+                                        <p class="project-subtotle">Professional</p>
+                                        <p>Learn to write desktop and web applications and data analysis with the ever growing  python.
+                                        </p>
+                                    </figcaption>
+                                        <span id="python"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                            <div class="project-item filterable-item skyscrapper">
+                                <figure class="featured-image">
+                                    <a href=""><img src="styles/2h.png" alt="#"></a>
+                                    <figcaption>
+                                        <h2 class="project-title"><a href="#">RUBY</a></h2>
+                                        <p class="project-subtotle">standard</p>
+                                        <p>Do you wish to start writing modern web applications. Consider learning ruby with us </p>
+                                    </figcaption>
+                                        <span id="Ruby"><img src="images/arrow.png" alt=""/></span>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .page -->
+
+            </main> <!-- .main-content -->
+
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="pull-left">
+
+                        <address>
+                            <strong>Excelent Coaching</strong>
+                            <p></p>
+                        </address>
+
+                        <a href="#" class="phone">+2348106251948</a>
+                    </div> <!-- .pull-left -->
+                    <div class="pull-right">
+
+                        <div class="social-links">
+
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+
+                        </div>
+
+                    </div> <!-- .pull-right -->
+
+                
+                </div> <!-- .container -->
+            </footer> <!-- .site-footer -->
+        </div>
+        <!--course Information Modal-->
+        <!--asp.net modal-->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="closeM">&times;</span>
+                    <a href="Documents/asp.pdf" download>
+                        <h2>Course information(Download)</h2>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <h1>Table of Contents </h1>
+                    <p>Contents Creating an Entity Framework Data Model</p> 
+                    <p>Introduction</p>
+                    <p> Software versions used in the tutorial </p>
+                    <p>Questions and comments</p>
+                    <p>The Contoso University Web Application</p>
+                    <p>Prerequisites</p>
+                    <p>Create an MVC Web Application</p>
+                    <p>Set Up the Site Style</p>
+                    <p>Install Entity Framework 6</p>
+                    <p>Create the Data Model</p>
+                    <p>The Student Entity </p>
+                    <p>The Enrolment Entity</p>
+                    <p>The Course Entity </p>
+                    <p>Create the Database Context</p>
+                    <p>Specifying entity sets </p>
+                    <p> Specifying the connection string</p> 
+                    <p>Implementing Basic CRUD Functionality with the Entity Framework in ASP.NET MVC Application </p>
+                    <p>Create a Details Page</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>price N450,000</h3>
+                </div>
+            </div>
+        </div><!--end of asp modal-->
+
+        <!--java_Modal-->
+        <div id="myModalJ" class="modal">
+            <!-- Modal content -->   
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <a href="Documents/javadocs.pdf" download>
+                        <h2>Course information(Download)</h2>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <h1>Table of Contents </h1>
+                    <p> Introduction to ComputersPrograms, and Java 1 2</p> 
+                    <p>Elementary Programming</p>
+                    <p>Loops</p> 
+                    <p>Methods</p>
+                    <p>Single-Dimensional Arrays</p>
+                    <p>Multidimensional Arrays</p>
+                    <p>Objects and Classes</p> 
+                    <p>Strings</p>
+                    <p>Thinking in Objects</p> 
+                    <p>Inheritance and Polymorphism</p> 
+                    <p>GUI Basics</p> 
+                </div>
+                <div class="modal-footer">
+                    <h3>price N400,000</h3>
+                </div>
+            </div>
+        </div>
+
+         <div id="myModalP" class="modal">
+            <!-- Modal content -->   
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="closeP">&times;</span>
+                    <a href="Documents/php.pdf" download>
+                        <h2>Course information(Download)</h2>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <h1>Table of Contents </h1>
+                    <p> Introduction to ComputersPrograms, and Java 1 2</p> 
+                    <p>Elementary Programming</p>
+                    <p>Loops</p> 
+                    <p>Methods</p>
+                    <p>Single-Dimensional Arrays</p>
+                    <p>Multidimensional Arrays</p>
+                    <p>Objects and Classes</p> 
+                    <p>Strings</p>
+                    <p>Thinking in Objects</p> 
+                    <p>Inheritance and Polymorphism</p> 
+                    <p>GUI Basics</p> 
+                </div>
+                <div class="modal-footer">
+                    <h3>price N200,000</h3>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+
+
+    </div>
+    <!--modal scripting-->
+    <script>
+        // Get the modal
+        var modalA = document.getElementById('myModal');
+        // Get the button that opens the modal
+        var btnA = document.getElementById("myBtn");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("closeM")[0];
+        // When the user clicks the button, open the modal 
+        btnA.onclick = function () {
+            modalA.style.display = "block";
+        };
+  // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modalA.style.display = "none";
+        };
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (x) {
+            if (x.target === modalA) {
+                modalA.style.display = "none";
+            }
+        };
+        
+  
+        var modal = document.getElementById('myModalJ');
+        var btn = document.getElementById("pop-up-2");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function () {
+            modal.style.display = "block";
+        };
+        span.onclick = function () {
+            modal.style.display = "none";
+        };
+        window.onclick = function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+        
+        
+        
+        
+        
+        
+    </script>
+
+
+    <script src="scripts//jquery-1.11.1.min.js"></script>
+    <script src="scripts//plugins.js"></script>
+    <script src="scripts//app.js"></script>
+
+</body>
+
+</html>
